@@ -1,0 +1,24 @@
+.am-tabs-default-bar-underline{
+    border:2px solid orange;
+}
+.register{
+    display: flex;
+    justify-content: space-between;
+    span{
+        color:#FE8C00;
+        font-size: 13px;
+        margin:0 15px;
+    }
+}
+.copyRight{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    span{
+        color: #df2d2d;;
+    }
+}
+.am-navbar-light{
+    color:#fff;
+    font-size:20px;
+}

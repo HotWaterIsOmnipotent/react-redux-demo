@@ -1,0 +1,15 @@
+.numCtrol{
+    position: relative;
+    .buyticket{
+        width:100px;
+        display: flex;
+    }
+    .deleteGood{
+        position: absolute;
+        bottom:0;
+        right:6px;
+        p{
+            color:orange;
+        }
+    }
+}

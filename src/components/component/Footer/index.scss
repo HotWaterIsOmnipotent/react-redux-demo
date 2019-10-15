@@ -1,0 +1,28 @@
+.footerbar{
+    display: flex;
+    position:fixed;
+    bottom:0;
+    height:50px;
+    width:100%;
+    justify-content: space-around;
+    border-top:.5px solid #d8d8d8;
+    background: #fff;
+    .itembox{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:#696969;
+        .fa{
+            font-size:20px;
+        }
+        span{
+            margin-top:5px;
+            font-size:15px;
+        }
+        &.active{
+            color:#f03d37;
+        }
+    }
+}

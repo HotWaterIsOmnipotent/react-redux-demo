@@ -1,0 +1,49 @@
+.phBox{
+    width: 100%;
+    height:100%;
+    form{
+        // width: 100%;
+        .phUser{
+            border-bottom:1px solid #e6e6e6;
+            display: flex;
+            >input{
+                width:60%;
+            }
+            .getVer{
+                height:30px;
+                flex:1;
+                margin-left:10px;
+                background: #ececec;
+                font-size: 14px;
+                color:#999;
+                line-height:30px;
+            }
+        }
+        .phPass{
+            border-bottom:1px solid #e6e6e6;
+        }
+        >div{
+            width:100%;
+            padding: 7px 10px;
+            input{
+                width: 100%;
+                height:30px;
+                line-height:60px;
+                border:0;
+                &.active{
+                    border-radius: 3px;
+                    background: #ececec;
+                }
+            }
+        }
+        .phBtn{
+            margin:0 auto;
+            margin-top:20px;
+            z-index: 3;
+            width: 95%;
+            height:35px;
+            line-height: 35px;
+            font-size:16px;
+        }
+    }
+}

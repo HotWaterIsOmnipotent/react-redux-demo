@@ -1,0 +1,57 @@
+.itembox{
+    display: flex;
+    padding: 0 10px;
+    .imgBox{
+        display: flex;
+        width:70px;
+        justify-content: center;
+        align-items: center;
+        img{
+            height:90px;
+        }
+    }
+    .itemcontent{
+        display: flex;
+        margin-left:15px;
+        padding: 10px 0;
+        border-bottom:1px solid #d8d8d8;
+        >aside:first-child{
+            width:195px;
+            height:90px;
+            h3{
+                max-width: 160px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                font-weight: 800;
+                font-size:17px;
+                color:#333;
+                margin-bottom:7px;
+            }
+            p{
+                font-size:13px;
+                color:#666;
+                margin-bottom:7px;
+            }
+            p:first-of-type{
+                >span:first-child{
+                    color: #faaf00;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+            }
+        }
+        >aside:last-child{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .buyticket{
+                height:26px;
+                width:40px;
+                font-size:12px;
+                line-height:26px;
+                margin-right: 15px;
+            }
+        }
+    }
+}

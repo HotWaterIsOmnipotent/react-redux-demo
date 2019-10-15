@@ -1,0 +1,51 @@
+.cinemaBox{
+    display: flex;
+    flex-direction: column;
+    padding:20px 0;
+    margin:0 10px;
+    border-bottom:.5px solid #e6e6e6;
+    h3{
+        font-size:16px;
+        color:#000;
+        display: flex;
+        article{
+            margin-left:25px;
+            color:red;
+            font-size: 16px;
+            span{
+                font-size:12px;
+            }
+        }
+    }
+    p{
+        margin-top:10px;
+    }
+    .cPlace{
+        position: relative;
+        span:first-child{
+            max-width:220px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        span:last-child{
+            position: absolute;
+            right:10px;
+        }
+    }
+    .cTag{
+        span{
+            margin:0 5px;
+            border:.5px solid orange;
+            border-radius:2px;
+            font-size:12px;
+            line-height:12px;
+            height:12px;
+            padding:0 2px;
+            color:orange;
+        }
+    }
+    .cDiscount{
+        font-size:12px;
+    }
+}

@@ -1,0 +1,46 @@
+.movienavs{
+    display: flex;
+    border-bottom: 1px solid #e6e6e6;
+    height: 44px;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    background: #fff;
+    width:100%;
+    .posi{
+        span{
+            font-size:14px;
+            color:#666;
+        }
+    }
+    .switchmovie{
+        display: flex;
+        align-items: center;
+        .sbtn{
+            margin:0 10px;
+            font-size: 16px;
+            color:#666;
+            font-weight: 500;
+            width:80px;
+            text-align: center;
+            line-height: 44px;
+            border-bottom:1px solid #e6e6e6;
+            &.active{
+                color:#e54847;
+                border-color:#e54847;
+            }
+        }
+    }
+    .navsearch{
+        .fa{
+            font-size:20px;
+            font-weight: 400;
+            color:#e54847;
+        }
+    }
+    &.scrolled{
+        position: fixed;
+        top:0;
+        z-index: 3;
+    }
+}
